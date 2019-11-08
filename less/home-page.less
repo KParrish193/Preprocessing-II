@@ -1,12 +1,22 @@
-.home {
 
+
+.welcome {
+    width: 800px;
+    margin: 0 auto;
+    border-bottom: 2px dashed @navigation-border;
+
+    .intro {
+    padding: 3% 0;
+    }
+}
+
+.home {
+  
   .content-section {
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-   
     
     .text-content {
       width: 48%;
@@ -57,5 +67,9 @@
       width: 30%;
       margin-bottom: 30px;
     }
+
+      .btn {
+        .button (@button-bg, #FFFFFF);
+      }
   }
 }// home
